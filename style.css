@@ -135,6 +135,7 @@ a:hover {
 }
 #dropmenu{
     display: none;
+    width: auto;
 }
 .photo1{
     width: 60%;
@@ -149,12 +150,11 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: indigo;
+
 }
 .info{
-
+    padding-top: 50px;
     height: 200px;
-    background-color: hotpink;
 }
 
 @media only screen and (min-width:1000px){
@@ -165,7 +165,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1500px){
     .Our{
         font-size: 28px;
     }
@@ -181,9 +181,34 @@ a:hover {
     .asize:hover{
         font-size: 20px;
     }
+    .logo{
+        width: 100px;
+    }
 
 }
-@media only screen and (max-width:770px){
+@media only screen and (max-width:1100px){
+
+    .asize{
+        font-size: 16px;
+    }
+    .asize:hover{
+        font-size: 17px;
+    }
+
+
+}
+@media only screen and (max-width:1000px){
+
+    .asize{
+        font-size: 14px;
+    }
+    .asize:hover{
+        font-size: 15px;
+    }
+
+
+}
+@media only screen and (max-width:860px){
     .menu{
         display: none;
     }
@@ -197,8 +222,19 @@ a:hover {
         height: 250px;
     
     }
+    .first{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
-
-
+.regist{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.label{
+    display: flex;
+    justify-content: right;
+}
